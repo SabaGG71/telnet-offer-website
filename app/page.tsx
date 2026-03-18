@@ -39,21 +39,15 @@ export default function LandingPage() {
             >
               პროცესი
             </a>
-            <a
-              href="#pricing"
-              className="hover:text-blue-600 transition-colors"
-            >
-              ფასი
-            </a>
+            <button className="bg-slate-950 text-white px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-blue-600 transition-all shadow-xl shadow-slate-100 active:scale-95">
+              <Link
+                href="mailto:sgachechiladze881@gmail.com/?subject=ვებსაიტის შეკვეთა"
+                target="_blank"
+              >
+                პროექტის დაწყება
+              </Link>
+            </button>
           </div>
-          <button className="bg-slate-950 text-white px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-blue-600 transition-all shadow-xl shadow-slate-100 active:scale-95">
-            <Link
-              href="mailto:sgachechiladze881@gmail.com/?subject=ვებსაიტის შეკვეთა"
-              target="_blank"
-            >
-              პროექტის დაწყება
-            </Link>
-          </button>
         </div>
       </nav>
 
@@ -66,7 +60,7 @@ export default function LandingPage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
               </span>
-              ხელმისაწვდომია მიღება
+              შეთავაზება
             </div>
             {/* Improved Typography: larger H1, adjusted spacing */}
             <h1 className="text-4xl md:text-6xl font-black mb-10 tracking-tighter leading-[1.05] text-slate-950">
@@ -74,7 +68,7 @@ export default function LandingPage() {
               ვებსაიტი
             </h1>
             <p className="text-xl md:text-2xl text-slate-600/90 mb-12 leading-relaxed max-w-2xl font-medium">
-              შექმენით მყარი ციფრული წარსადგენი 4 კვირაში. სრული პაკეტი:
+              გთავაზობთ თანამედროვე სტილის ვებსაიტს 4 კვირაში. სრული პაკეტი:
               ინდივიდუალური UX/UI დიზაინიდან ფუნდამენტურ ტექნიკურ SEO-მდე.
             </p>
 
@@ -116,8 +110,8 @@ export default function LandingPage() {
                 <RefreshCw className="w-9 h-9 mb-5 animate-spin-slow text-blue-100" />
                 <h4 className="font-bold text-xl mb-3">3-დღიანი რეპორტინგი</h4>
                 <p className="text-blue-50 text-sm leading-relaxed relative z-10 opacity-90 hover:opacity-100">
-                  ყოველ მესამე დღეს მიიღებთ დეტალურ აპდეიტს შესრულებული სამუშაოს
-                  შესახებ. თქვენ მუდმივად ხართ პროცესის მონაწილე.
+                  ყოველ მესამე დღეს მიიღებთ დეტალურ უკუკავშირს შესრულებული
+                  სამუშაოს შესახებ. თქვენ მუდმივად ხართ პროცესის მონაწილე.
                 </p>
                 {/* Decorative pulse for the card */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl opacity-50 group-hover:scale-125 transition-transform"></div>
@@ -160,7 +154,7 @@ export default function LandingPage() {
                 icon={<Rocket className="w-6 h-6" />}
                 title="Performance & Security"
                 features={[
-                  "PageSpeed ოპტიმიზაცია (90+)",
+                  "PageSpeed ოპტიმიზაცია",
                   "Image Optimization & WebP",
                   "SSL სერტიფიკატის გამართვა",
                   "ძირითადი დაცვის ფილტრები",
@@ -186,7 +180,7 @@ export default function LandingPage() {
             <Step
               number="02"
               title="აწყობა და გამართვა"
-              desc="გადაგვაქვს დიზაინი WordPress-ში და ვმართავთ ადმინ პანელს თქვენს საჭიროებებზე."
+              desc="გადაგვაქვს დიზაინი WordPress-ში და ვარგებთ თქვენს საჭიროებებზე."
             />
             <Step
               number="03"
@@ -214,11 +208,10 @@ export default function LandingPage() {
                 ინფორმაცია კონტენტის შესახებ
               </h3>
               <p className="text-slate-300 leading-relaxed italic text-base opacity-90 hover:opacity-100 transition-opacity">
-                "ჩვენ უზრუნველვყოფთ თქვენი არსებული ტექსტების და ფოტოების
-                პროფესიონალურ განთავსებას საიტზე. ძველი ვებსაიტიდან მოვახდენთ
-                ინფორმაციის მიგრაციას ან განვაახლებთ მას თქვენი მითითებების
-                შესაბამისად. გაითვალისწინეთ, რომ შეთავაზება არ მოიცავს
-                ქოფირაითინგს (ტექსტების ნულიდან შექმნას)."
+                "ჩვენ განვათავსებთ თქვენს მიერ მოწოდებულ ტექსტებს ვებსაიტზე.
+                ძველი ვებსაიტიდან მოვახდენთ ინფორმაციის მიგრაციას ან განვაახლებთ
+                მას თქვენი მითითებების შესაბამისად. გაითვალისწინეთ, რომ
+                შეთავაზება არ მოიცავს ქოფირაითინგს (ტექსტების ნულიდან შექმნას)."
               </p>
             </div>
           </div>
@@ -232,10 +225,6 @@ export default function LandingPage() {
           <h2 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter text-slate-950">
             დავიწყოთ თქვენი პროექტი?
           </h2>
-          <p className="text-slate-600 mb-14 text-xl leading-relaxed max-w-2xl mx-auto font-medium opacity-90">
-            მიიღეთ გამართული, სწრაფი და თანამედროვე საიტი ფიქსირებულ დროში და
-            ფასად.
-          </p>
           <div className="flex flex-col sm:flex-row justify-center gap-5 relative">
             {/* Visual accent background for CTA button */}
             <div className="absolute inset-0 flex justify-center items-center">
@@ -253,7 +242,7 @@ export default function LandingPage() {
             </button>
           </div>
           <p className="mt-20 text-slate-400 text-sm font-semibold uppercase tracking-widest border-t border-slate-100 pt-10 max-w-md mx-auto">
-            © 2026 WEBNOTES DEVELOPMENT
+            © 2026 WEBNOTES
           </p>
         </div>
       </footer>
